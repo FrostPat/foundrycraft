@@ -1,15 +1,15 @@
 {
-	"name": "vtt-craft",
-	"title": "VTT Craft",
+	"name": "foundrycraft",
+	"title": "FoundryCraft",
 	"description": "",
-	"version": "0.1.2",
-	"author": "Felix#6196",
+	"version": "0.0.1",
+	"author": "FrostPat",
 	"systems": ["dnd5e"],
     "scripts": ["/wow-ui.js"],
 	"styles": ["/wow-ui.css"],
 	"packs": [],
-    "url": "https://github.com/syl3r86/preloader",
-    "manifest": "https://raw.githubusercontent.com/syl3r86/vtt-craft/master/module.json",
-    "download": "https://github.com/syl3r86/vtt-craft/archive/master.zip",
+    "url": "https://github.com/FrostPat/",
+    "manifest": "https://raw.githubusercontent.com/FrostPat/foundrycraft/master/module.json",
+    "download": "https://github.com/FrostPat/foundrycraft/archive/master.zip",
     "minimumCoreVersion": "0.6.0"
 }
