@@ -9,7 +9,7 @@
 	"styles": ["/wow-ui.css"],
 	"packs": [],
     "url": "https://github.com/FrostPat/",
-    "manifest": "https://raw.githubusercontent.com/FrostPat/foundrycraft/master/module.json",
-    "download": "https://github.com/FrostPat/foundrycraft/archive/master.zip",
+    "manifest": "https://raw.githubusercontent.com/FrostPat/foundrycraft/main/module.json?token=GHSAT0AAAAAAB4ITGGKV3FAQPCPR35QEM5SY4YCBDQn",
+    "download": "https://github.com/FrostPat/foundrycraft/raw/main/foundrycraft.zip",
     "minimumCoreVersion": "0.6.0"
 }
