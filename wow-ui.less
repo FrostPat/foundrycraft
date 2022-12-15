@@ -377,6 +377,15 @@
   border: 2px solid #f5eb00;
   box-shadow: 0 0 10px #989200;
 }
+
+#hotbar #macro-list {
+margin: -2px 0px 0px 0px; !important
+}
+
+#hotbar .bar-controls {
+margin: -2px 0px 0px 0px; !important
+}
+
 .vtt.wow-general #navigation {
   display: block;
   max-width: calc(100% - 355px);
@@ -387,8 +396,8 @@
   background-image: url(images/buttons/sidebar_top_btn.png);
   background-size: contain;
   position: absolute;
-  left: 0;
-  top: 5px;
+  left: -90px;
+  top: 18px;
   z-index: 70;
   border: none;
 }
@@ -577,8 +586,9 @@
   /*.tinyframe();*/
   border-left: none;
   border-right: none;
-  left: 360px;
+  left: 110px;
   bottom: 7px;
+position: relative;
 }
 .vtt.wow-general #hotbar #action-bar:before {
   pointer-events: none;
@@ -613,7 +623,7 @@
   background-size: cover;
   width: 150px;
   height: 150px;
-  right: -90px;
+  right: -120px;
   bottom: -7px;
 }
 .vtt.wow-general #hotbar #action-bar #macro-list:before {
