@@ -218,6 +218,14 @@
   letter-spacing: 2px;
   border-color: #989200;
 }
+
+.vtt.wow-general .sheet-navigation {
+    flex: 0 0 30px;
+    margin-bottom: 5px;
+    font-family: "LifeCraft", Signika, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
 .vtt.wow-general a:hover {
   text-shadow: 0 0 8px #989200;
   color: #f5eb00;

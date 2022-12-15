@@ -2,7 +2,7 @@
 	"name": "foundrycraft",
 	"title": "FoundryCraft",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "FrostPat",
 	"systems": ["dnd5e"],
     "scripts": ["/wow-ui.js"],

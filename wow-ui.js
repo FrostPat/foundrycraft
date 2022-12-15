@@ -1,6 +1,6 @@
 Hooks.on('init', () => {
 
-    game.settings.register("vtt-craft", "chosenTheme", {
+    game.settings.register("foundrycraft", "chosenTheme", {
         name: 'Select Theme',
         hint: 'Select one from the different UI themes',
         scope: "user",
