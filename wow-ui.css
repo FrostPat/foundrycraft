@@ -195,11 +195,9 @@
 }
 .vtt.wow-general button:not(.tox-tbtn) {
   font-family: "LifeCraft", Signika, sans-serif;
-  letter-spacing: 2px;
-  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
   font-weight: normal;
   color: #c4a619;
-  font-size: 17px;
+  font-size: 15px;
   padding: 0;
   border: 10px solid;
   border-image: url(images/buttons/button_med_alt.png);
