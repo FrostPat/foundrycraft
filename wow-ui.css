@@ -65,12 +65,12 @@
   font-size: 17px;
   padding: 0;
   border: 10px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .btn-large:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -121,12 +121,12 @@
   font-weight: bold;
   font-size: 12px;
   border: 6px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .btn-small:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -200,12 +200,12 @@
   font-size: 15px;
   padding: 0;
   border: 10px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .vtt.wow-general button:not(.tox-tbtn):hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -218,12 +218,12 @@
   font-size: 18px;
   padding: 0;
   border: 10px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .vtt.wow-general button .data-action:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -268,12 +268,12 @@
   font-weight: bold;
   font-size: 12px;
   border: 6px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .vtt.wow-general .app.dialog button:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -287,12 +287,12 @@
   font-weight: bold;
   font-size: 12px;
   border: 6px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .vtt.wow-general .app.filepicker .current-dir button.back:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -312,12 +312,12 @@
   font-weight: bold;
   font-size: 12px;
   border: 6px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
 .vtt.wow-general .app .tag button:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
@@ -484,14 +484,14 @@ margin: -2px 0px 0px 0px; !important
   font-weight: bold;
   font-size: 12px;
   border: 6px solid;
-  border-image: url(images/buttons/button_med_alt.png);
+  border-image: url(images/buttons/button_new.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   height: 32px;
   line-height: 16px;
 }
 .vtt.wow-general #sidebar #chat .message button:hover {
-  border-image: url(images/buttons/button_med_alt_highlight.png);
+  border-image: url(images/buttons/button_new_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
   box-shadow: 0 0 5px #989200;
