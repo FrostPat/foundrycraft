@@ -193,24 +193,6 @@
   font-family: Signika, sans-serif;
   letter-spacing: 0px;
 }
-.vtt.wow-general button:not(.tox-tbtn) {
-  font-family: "LifeCraft", Signika, sans-serif;
-  font-weight: normal;
-  color: #c4a619;
-  font-size: 15px;
-  padding: 0;
-  border: 10px solid;
-  border-image: url(images/buttons/button_med_10px.png);
-  border-image-slice: 11 11 11 11 fill;
-  background: none;
-}
-.vtt.wow-general button:not(.tox-tbtn):hover {
-  border-image: url(images/buttons/button_med_10px_highlight.png);
-  border-image-slice: 11 11 11 11 fill;
-  background: none;
-  box-shadow: 0 0 5px #989200;
-}
-
 .vtt.wow-general button .data-action {
   font-family: "LifeCraft", Signika, sans-serif;
   font-weight: normal;
@@ -228,6 +210,27 @@
   background: none;
   box-shadow: 0 0 5px #989200;
 }
+
+.vtt.wow-general button:not(.tox-tbtn) {
+  font-family: "LifeCraft", Signika, sans-serif;
+  font-weight: normal;
+    color: #fbffbc;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.vtt.wow-general button:not(.tox-tbtn):hover {
+  border-image: url(images/buttons/button_med_10px_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
+
+
 .vtt.wow-general h1,
 .vtt.wow-general h2 {
   font-family: "LifeCraft", Signika, sans-serif;
@@ -658,8 +661,9 @@ position: relative;
   letter-spacing: 2px;
   text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
   font-weight: normal;
-  color: #c4a619;
-  font-size: 17px;
+  color: #fbffbc;
+  font-size: 12px;
+  line-height: 12px;
   padding: 0;
   border: 10px solid;
   border-image: url(images/buttons/button_med_10px.png);
