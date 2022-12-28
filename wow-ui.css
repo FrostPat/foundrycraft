@@ -75,6 +75,26 @@
   background: none;
   box-shadow: 0 0 5px #989200;
 }
+
+.btn-large {
+  font-family: "LifeCraft", Signika, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+  font-weight: normal;
+  color: #c4a619;
+  font-size: 17px;
+  padding: 0;
+  border: 10px solid;
+  border-image: url(images/buttons/button_med_10px.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+}
+.btn-large:hover {
+  border-image: url(images/buttons/button_med_10px_highlight.png);
+  border-image-slice: 11 11 11 11 fill;
+  background: none;
+  box-shadow: 0 0 5px #989200;
+}
 .btn-large-horde {
   font-family: "LifeCraft", Signika, sans-serif;
   letter-spacing: 2px;
@@ -211,7 +231,7 @@
   box-shadow: 0 0 5px #989200;
 }
 
-.vtt.wow-general button:not(.tox-tbtn):not(.data-action) {
+.vtt.wow-general button:not(.tox-tbtn):not(.settings-sidebar) {
   font-family: "LifeCraft", Signika, sans-serif;
   font-weight: normal;
     color: #fbffbc;
@@ -223,7 +243,7 @@
   border-image-slice: 11 11 11 11 fill;
   background: none;
 }
-.vtt.wow-general button:not(.tox-tbtn):hover {
+.vtt.wow-general button:not(.tox-tbtn):not(.settings-sidebar):hover {
   border-image: url(images/buttons/button_med_10px_highlight.png);
   border-image-slice: 11 11 11 11 fill;
   background: none;
