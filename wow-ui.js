@@ -26,7 +26,7 @@ Hooks.on('init', () => {
 });
 
 Hooks.on('ready', () => {
-    let theme = game.settings.get('vtt-craft', 'chosenTheme');
+    let theme = game.settings.get('vtt-craft', 'wow-neutral');
     applyWowSkin(theme);
 });
 
