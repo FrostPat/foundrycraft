@@ -1,10 +1,34 @@
 Hooks.on('init', () => {
 
-       let theme = game.settings.get('vtt-craft', 'wow-neutral');
-    applyWowSkin(theme);
+    game.settings.register("foundrycraft", "chosenTheme", {
+        name: 'Select Theme',
+        hint: 'Select one from the different UI themes',
+        scope: "user",
+        config: true,
+        default: "0",
+        type: String,
+        choices: {
+            "0": 'none',
+            "wow-neutral": 'Neutral',
+            "wow-horde": 'Horde',
+            "wow-alliance": 'Alliance',
+        },
+        onChange: (theme) => {
+            applyWowSkin(theme);
+            if (theme === 'wow-horde') {
+                ui.notifications.error("For the Horde!!!");
+            }
+            if (theme === 'wow-alliance') {
+                ui.notifications.info("For the Alliance!!!");
+            }
+        }
+    });
 });
 
-
+Hooks.on('ready', () => {
+    let theme = game.settings.get('vtt-craft', 'wow-neutral');
+    applyWowSkin(theme);
+});
 
 Hooks.on('renderActorSheet', (app, html, data) => {
     if (game.settings.get('vtt-craft', 'chosenTheme') !== '0' && app.changedWidth === undefined) {
