@@ -1,11 +1,5 @@
-Hooks.on('init', () => {
-
-    game.settings.set("foundrycraft", "chosenTheme", "wow-neutral");
-});
-
 Hooks.on('ready', () => {
-    let theme = game.settings.get("foundrycraft", "chosenTheme");
-    applyWowSkin(theme);
+    applyWowSkin('wow-neutral');
 });
 
 Hooks.on('renderActorSheet', (app, html, data) => {
