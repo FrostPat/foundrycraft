@@ -1,31 +1,15 @@
 Hooks.on('init', () => {
 
-    game.settings.register("foundrycraft", "chosenTheme", {
-        name: 'Select Theme',
-        hint: 'Select one from the different UI themes',
-        scope: "world",
-        config: true,
-        default: "wow-neutral",
-        type: String,
-        choices: {
-            "0": 'none',
-            "wow-neutral": 'Neutral',
-            "wow-horde": 'Horde',
-            "wow-alliance": 'Alliance',
-        },
-        onChange: (theme) => {
-            applyWowSkin(theme);
-        }
-    });
+    game.settings.set("foundrycraft", "chosenTheme", "wow-neutral");
 });
 
 Hooks.on('ready', () => {
-    let theme = game.settings.get('vtt-craft', 'wow-neutral');
+    let theme = game.settings.get("foundrycraft", "chosenTheme");
     applyWowSkin(theme);
 });
 
 Hooks.on('renderActorSheet', (app, html, data) => {
-    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0' && app.changedWidth === undefined) {
+    if (game.settings.get('foundrycraft', 'chosenTheme') !== '0' && app.changedWidth === undefined) {
         let correctionFactor = 40;
         let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
 
@@ -37,7 +21,7 @@ Hooks.on('renderActorSheet', (app, html, data) => {
 });
 
 Hooks.on('renderItemSheet', (app, html, data) => {
-    /*if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
+    /*if (game.settings.get('foundrycraft', 'chosenTheme') !== '0') {
         console.log('rendering');
         let correctionFactor = 40;
         let newMinWidth = Number($(html).css('min-width').replace('px', '')) + correctionFactor;
@@ -49,7 +33,7 @@ Hooks.on('renderItemSheet', (app, html, data) => {
 });
 
 Hooks.on('renderPlayerList', (app, html, data) => {
-    if (game.settings.get('vtt-craft', 'chosenTheme') !== '0') {
+    if (game.settings.get('foundrycraft', 'chosenTheme') !== '0') {
         let playerDisplay = html.find('.player');
         for (let li of playerDisplay) {
             let user = game.users.get(li.dataset.userId);
