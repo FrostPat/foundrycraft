@@ -1,5 +1,7 @@
 Hooks.on('ready', () => {
-    applyWowSkin('wow-neutral');
+ let theme = "wow-neutral";   
+ applyWowSkin(theme);
+
 });
 
 Hooks.on('renderActorSheet', (app, html, data) => {
